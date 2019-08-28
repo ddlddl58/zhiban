@@ -47,7 +47,7 @@ def get_schedule(origin_file, result_file, zhiban_person_wday, zhiban_person_wen
 
 if __name__ == '__main__':
     origin_file = r'E:\05-project_ding\zhiban\zhiban201908_.csv'
-    result_file = r'E:\05-project_ding\zhiban\zhiban201908_zhiban.csv'
+    result_file = r'E:\05-project_ding\zhiban\zhiban201908_zhiban2.csv'
     zhiban_person_wday = iter(['张三', '李四', '王五', '马六', '赵一', '钱二', '孙三', ] * 50)
     zhiban_person_wend = iter(['Tom', 'Jerry', 'Leo', 'Lily', 'John',] * 15)
 
