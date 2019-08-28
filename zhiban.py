@@ -48,8 +48,8 @@ def get_schedule(origin_file, result_file, zhiban_person_wday, zhiban_person_wen
 if __name__ == '__main__':
     origin_file = r'E:\05-project_ding\zhiban\zhiban201908_.csv'
     result_file = r'E:\05-project_ding\zhiban\zhiban201908_zhiban.csv'
-    zhiban_person_wday = iter(['鲍中帅', '罗远', '丁一飞', '李嘉旻', '屠友杰', '周康', '李永广', ] * 50)
-    zhiban_person_wend = iter(['罗远', '丁一飞', '李嘉旻', '屠友杰', '周康', '李永广', '鲍中帅', ] * 50)
+    zhiban_person_wday = iter(['张三', '李四', '王五', '马六', '赵一', '钱二', '孙三', ] * 50)
+    zhiban_person_wend = iter(['Tom', 'Jerry', 'Leo', 'Lily', 'John',] * 15)
 
     st_time = time.time()
     get_schedule(origin_file, result_file, zhiban_person_wday, zhiban_person_wend)
